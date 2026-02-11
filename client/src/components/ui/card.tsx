@@ -1,0 +1,11 @@
+import React from 'react'
+
+interface CardProps extends React.HTMLAttributes<HTMLDivElement> {}
+
+export function Card({ className = '', ...props }: CardProps) {
+  return <div className={`rounded-lg shadow-lg ${className}`} {...props} />
+}
+
+export function CardContent({ className = '', ...props }: CardProps) {
+  return <div className={className} {...props} />
+}
