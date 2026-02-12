@@ -84,12 +84,13 @@ export default function Home() {
           backgroundImage: `url(https://files.manuscdn.com/user_upload_by_module/session_file/310519663316636568/uUxmcZAnNJPSvBlN.png)`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
-          backgroundAttachment: 'fixed'
+          backgroundAttachment: window.innerWidth > 768 ? 'fixed' : 'scroll',
+          backgroundRepeat: 'no-repeat'
         }}
       >
         <div 
-          className="absolute inset-0 bg-[#F5F2ED]/40"
-          style={{ transform: `translateY(${scrollY * 0.3}px)` }}
+          className="absolute inset-0 bg-[#F5F2ED]/50 md:bg-[#F5F2ED]/40"
+          style={{ transform: window.innerWidth > 768 ? `translateY(${scrollY * 0.3}px)` : 'none' }}
         />
         
         <div className="w-full container mx-auto max-w-4xl relative z-10 px-6">
@@ -99,6 +100,8 @@ export default function Home() {
                 src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663316636568/XHDFijGREtHpKFBE.png" 
                 alt="Isadora & Pedro" 
                 className="w-full max-w-2xl drop-shadow-lg"
+                loading="lazy"
+                decoding="async"
               />
             </div>
             <div className="space-y-2 font-serif text-xl md:text-2xl text-[#6B4423]">
