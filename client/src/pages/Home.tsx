@@ -238,7 +238,7 @@ export default function Home() {
                       Praia do Patacho, Porto de Pedras - AL
                     </p>
                     <Button 
-                      onClick={() => window.open('https://www.google.com/maps/search/Espa%C3%A7o+Koral+Praia+do+Patacho+Porto+de+Pedras+AL/@-9.1583,-35.2833,15z', '_blank')}
+                      onClick={() => window.open('https://maps.app.goo.gl/KVRBXjygv3L3GYSf6', '_blank')}
                       variant="outline"
                       className="border-[#D4A574] text-[#6B4423] hover:bg-[#D4A574] hover:text-white transition-all duration-300"
                     >
@@ -251,10 +251,14 @@ export default function Home() {
 
             <Card className="bg-white/95 backdrop-blur-sm border-[#D4A574]/30 shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 md:col-span-2">
               <CardContent className="p-8 space-y-8">
-                <h3 className="font-serif text-2xl text-[#6B4423] font-semibold mb-6 text-center">Dress Code</h3>
+                <h3 className="font-serif text-2xl text-[#6B4423] font-semibold mb-6 text-center">Dress Code: convidados</h3>
                 
                 <p className="font-sans text-base text-[#6B4423]/80 text-center leading-relaxed">
                   Nosso casamento será à beira-mar, então pensamos em um traje que una elegancia, conforto e leveza. A ideia é que todos estejam bem-vestidos, mas à vontade para curtir esse momento especial com a gente. 💫
+                </p>
+
+                <p className="font-sans text-base text-[#6B4423]/80 text-center leading-relaxed">
+                  <strong>Cores: a paleta dos padrinhos e madrinhas é diversa, e você não precisa se preocupar com ela. Evite apenas o Branco e o Marrom (homens e mulheres).</strong>
                 </p>
                 
                 <div className="space-y-8">
@@ -278,6 +282,54 @@ export default function Home() {
                     <p className="font-sans text-base text-[#6B4423]/80">
                       Nos pés, fiquem tranquilos: tênis ou sapatos mais casuais são super bem-vindos. Priorizem o conforto.
                     </p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Dress Code Padrinhos */}
+            <Card className="bg-white/95 backdrop-blur-sm border-[#D4A574]/30 shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 md:col-span-2">
+              <CardContent className="p-8 space-y-8">
+                <h3 className="font-serif text-2xl text-[#6B4423] font-semibold mb-6 text-center">Dress Code: Padrinhos</h3>
+                
+                <div className="space-y-8">
+                  {/* Para Padrinhos */}
+                  <div className="space-y-4">
+                    <h4 className="font-serif text-xl text-[#D4A574] font-semibold">Para os Padrinhos</h4>
+                    <p className="font-sans text-base text-[#6B4423]/80">
+                      Para vestir, terno com camisa social, mas sem gravata. Para calçar, sapato ou tênis, fica a sua escolha.
+                    </p>
+                    <p className="font-sans text-base text-[#6B4423]/80">
+                      <strong>Cor do terno:</strong> qualquer um dos tons abaixo
+                    </p>
+                    <div className="flex justify-center">
+                      <img
+                        src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663341133733/roJMHOViESFQiWAz.png"
+                        alt="Paleta de cores dos padrinhos"
+                        className="max-w-full w-auto max-h-40 object-contain"
+                      />
+                    </div>
+                  </div>
+
+                  {/* Para Madrinhas */}
+                  <div className="space-y-4">
+                    <h4 className="font-serif text-xl text-[#D4A574] font-semibold">Para as Madrinhas</h4>
+                    <p className="font-sans text-base text-[#6B4423]/80">
+                      Para vestir, vestido longo. Evite estampas ou vestidos com muito brilho.
+                    </p>
+                    <p className="font-sans text-base text-[#6B4423]/80">
+                      Para calçar, sapato de salto ou sandália - mas se for de salto, prefira um salto bloco porque a cerimônia é na areia.
+                    </p>
+                    <p className="font-sans text-base text-[#6B4423]/80">
+                      <strong>Cor do vestido:</strong> qualquer um dos tons abaixo
+                    </p>
+                    <div className="flex justify-center">
+                      <img
+                        src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663341133733/pCmzuYXtRqaJxcEk.png"
+                        alt="Paleta de cores das madrinhas"
+                        className="max-w-full w-auto max-h-56 object-contain"
+                      />
+                    </div>
                   </div>
                 </div>
               </CardContent>
