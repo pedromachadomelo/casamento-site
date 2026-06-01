@@ -304,7 +304,7 @@ export default function Home() {
                     </p>
                     <div className="flex justify-center">
                       <img
-                        src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663341133733/qcakqcAznNwrfddK.png"
+                        src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663341133733/KfEDrztAYxsDTmrt.png"
                         alt="Paleta de cores dos padrinhos"
                         className="max-w-full w-auto max-h-28 object-contain"
                       />
@@ -325,7 +325,7 @@ export default function Home() {
                     </p>
                     <div className="flex justify-center">
                       <img
-                        src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663341133733/fVBEPNaODkJPPMwb.png"
+                        src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663341133733/QDxStnVAugJctkaf.png"
                         alt="Paleta de cores das madrinhas"
                         className="max-w-full w-auto max-h-56 object-contain"
                       />
