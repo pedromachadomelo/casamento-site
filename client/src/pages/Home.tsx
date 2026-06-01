@@ -266,7 +266,7 @@ export default function Home() {
                   <div className="space-y-4">
                     <h4 className="font-serif text-xl text-[#D4A574] font-semibold">Para Mulheres</h4>
                     <p className="font-sans text-base text-[#6B4423]/80">
-                      Indicamos vestido longo em estilo esporte fino, com tecidos leves e fluídos. Não precisa ser um look excessivamente formal ou sofisticado - o mais importante é manter a elegância com frescor e conforto.
+                      Indicamos vestido longo, terninho ou uma camisa social. Não precisa ser um look excessivamente formal ou sofisticado - o mais importante é manter a elegância com frescor e conforto.
                     </p>
                     <p className="font-sans text-base text-[#6B4423]/80">
                       Ah, e um aviso importante: não é obrigatório usar salto. Como a cerimônia será na areia, sandálias baixas, rasteiras elegantes ou plataformas confortáveis são ótimas opções.
@@ -315,10 +315,7 @@ export default function Home() {
                   <div className="space-y-4">
                     <h4 className="font-serif text-xl text-[#D4A574] font-semibold">Para as Madrinhas</h4>
                     <p className="font-sans text-base text-[#6B4423]/80">
-                      Para vestir, vestido longo. Evite estampas ou vestidos com muito brilho.
-                    </p>
-                    <p className="font-sans text-base text-[#6B4423]/80">
-                      Para calçar, sapato de salto ou sandália - mas se for de salto, prefira um salto bloco porque a cerimônia é na areia.
+                      Para vestir, vestido longo ou terno com camisa social. Evite estampas ou vestidos com muito brilho. Para calçar, sapato, sapato de salto ou sandália - mas se for de salto, prefira um salto bloco porque a cerimônia é na areia.
                     </p>
                     <p className="font-sans text-base text-[#6B4423]/80">
                       <strong>Cor do vestido:</strong> qualquer um dos tons abaixo
